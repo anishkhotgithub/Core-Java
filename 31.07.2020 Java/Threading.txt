@@ -1,0 +1,29 @@
+Theading
+	
+	Thread is an execution in a process.
+
+	Windows OS		(Multi-Tasking)
+	
+		Google Chrome	(Process)
+		Zoom		(Process)
+		Notepad		(Process)
+		Netbeans	(Process)	(multi-threading)
+
+			-Compiling code		(thread)
+			-Spelling		(thread)
+			-Check Updates		(thread)	
+			-Download Updates	(thread)
+
+	for()//2 sec
+	{
+
+	}
+		
+	for()//2 sec
+	{
+
+	}
+
+	=2 sec
+
+	

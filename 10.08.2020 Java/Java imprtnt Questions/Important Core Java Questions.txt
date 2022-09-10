@@ -1,0 +1,671 @@
+40 MCQ's
+80 Minutes
+100 Marks
+No Negative Marking
+50% passing
+
+------------------------------------------------------------------
+------------------------------------------------------------------
+
+which one of the following data types can store only true and false values?
+
+a. float
+b. int
+c. boolean
+d. char
+
+
+ans=c. boolean
+
+--------------------------------------------------
+--------------------------------------------------
+
+Mark is creating an application in which he needs to convert the primitive data types
+into objects. Identify the class which he can use to achieve the same.
+
+a. final class
+b. wrapper class
+c. inner class
+d. abstract class
+
+ans=wrapper class
+--------------------------------------------------
+--------------------------------------------------
+
+Ryan a java developer wants to create a game application. In this application, he wants to keep
+track of the number of times a user played the game before actually closing the game app.
+which point he should follow to achieve the same.
+
+a. In this scenario, a static variable should be incremented to keep track of the attempts.
+b. In this scenario, an abstract should be incremented to keep track of changes.
+c. In this scenario, a constant variable should be incremented to keep track of changes.
+d. In this scenerio, a final variable should be incremented to keep track of the attempts.
+
+
+ans=a. In this scenario, a static variable should be incremented to keep track of the attempts.
+
+
+--------------------------------------------------
+--------------------------------------------------
+
+Which one of the following of operators works on a logical expression and two operands?
+
+a. Comparison
+b. Unary
+c. Ternary
+d. Assignment
+
+ans=Comparison
+--------------------------------------------------
+--------------------------------------------------
+
+You have created a switch with five case constants. Now, you want to ensure that only one
+case constant is executed if the value matches. How can you achieve the same?
+
+
+a. By adding if statement
+b. By adding for statement
+c. By adding break statement
+d. By adding continue statement
+
+ans=c. By adding break statement
+--------------------------------------------------
+--------------------------------------------------
+
+Predict the output of following statement:
+
+package demo;
+
+public class Demo
+{
+	public static void main(String[] args)
+	{
+		for(int i=1;i<=5;i++)
+		{
+			for(int j=1;j<=i;j++)
+			{
+				System.out.println(i);
+			}
+			System.out.println();
+		}
+	}	
+}
+
+
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+
+which one of the following methods of the string class returns the part of the string:
+
+a. subString()
+b. startsWith()
+c. trim()
+d. compareTo()
+
+ans=a. subString()
+
+--------------------------------------------------
+--------------------------------------------------
+
+Mark has been assigned the task of converting the enum constant into the string object.
+Identify the method that will help him to achieve the same.
+
+a. value()
+b. valueAt()
+c. valueOf()
+d. valueIn()
+
+ans=c. valueOf()
+
+---------------------------------------------------
+---------------------------------------------------
+Predict the output of the following code:
+
+package demo;
+
+class Demo
+{
+	public static void main(String[] args)
+	{
+		String str1=new String("TECHNOLOGY");
+		String str2=new String("TECHNOLOGY");
+
+		System.out.println(str1==str2);
+		System.out.println(str1.equals(str2));
+	}
+}
+
+
+ans=
+	  1)false
+          2)true
+	
+
+--------------------------------------------------
+--------------------------------------------------
+
+Shawn needs to create the class that can contain methods, both with or without their implementation.
+Which one of the following types of the class should be use for this purpose?
+
+a. concrete class
+b. static class
+c. abstract class
+d. final class
+
+Answer: abstract class
+
+--------------------------------------------------
+--------------------------------------------------
+
+Predict the output of the following code:
+
+package parent;
+
+public class Parent
+{
+	public void show()
+	{
+		System.out.println("parent class method");
+	}
+}
+
+class Child extends Parent
+{
+	public void show()
+	{
+		System.out.println("parent class method");
+	}
+	
+	public static void main(String[] args)
+	{
+		Child c=new Child();
+		Parent p=new Child();
+
+		c.show();
+		p.show();
+	}
+}
+
+--------------------------------------------------
+--------------------------------------------------
+
+Alia has written the following code:
+
+package circle;
+
+interface Shape
+{
+	void drawShape();
+}
+
+class Circle implements Shape
+{
+	void drawShape()
+	{
+		System.out.println("Drawing circle");
+	}
+
+	public static void main(String[] args)
+	{
+		Shape c=new Circle();
+		c.drawShape();
+	}
+}
+
+--------------------------------------------------
+--------------------------------------------------
+
+On executing a java application, the application is throwing the ArrayStoreException exception.
+Which one of the following option is the correct cause of the exception?
+
+a. It occur when you create an array with negative size.
+b. It occur when you assign an element to an array that is not compatible with type of data that can be
+   stored in that array.
+c. It is throws when you refer an object, array, variable, constructor or method that is not accessible.
+d. It occur when an attempt is made to access an array element beyond the index of the array.
+
+Answer: b
+
+--------------------------------------------------
+--------------------------------------------------
+
+Which one of the following layout manager adds the component one after the other in row?
+
+a. BorderLayout
+b. GroupLayout
+c. GridLayout
+d. FlowLayout
+
+ans= b. FlowLayout
+
+
+
+--------------------------------------------------
+--------------------------------------------------
+
+Aron is creating a student feedback from using GUI in which he wants to provide a space to write
+the detail feedback in their own words. How can be achieve the same.
+
+a. By using JList component.
+b. By using JComboBox component.
+c. By using JTextField component.
+d. By using JTextArea component.
+
+ans=d. By using JTextArea component.
+
+--------------------------------------------------
+--------------------------------------------------
+
+Predict the output of the following code:
+
+import java.awt.*;
+import javax.swing.*;
+
+public class Demo
+{
+	public static void main(String[] args)
+	{
+		JFrame f=new JFrame("Bank");
+		f.setSize(300,200);
+		f.setLayout(new GridLayout(2,3,10,15));
+		JButton[] buttons=new JButton[6];
+
+		for(int i=0;i<buttons.length-1;i++)	
+		{
+			buttons[i]=new JButton("Lock "+(i+101));
+			f.add(buttons[i]);	
+		}
+		f.setVisible(true);
+	}
+}
+
+a. it will display a frame with six buttons.
+b. it will generate a run time error.
+c. it will display a frame with five buttons.
+d. it will generate a compile time error.
+
+ans=c. it will display a frame with five buttons.
+
+
+--------------------------------------------------
+--------------------------------------------------
+
+
+which one of the following event classes provides the isTemporary() method?
+
+a. MouseEvent
+b. FocusEvent
+c. ActionEvent
+d. KeyEvent
+
+ans=b. FocusEvent
+
+--------------------------------------------------
+--------------------------------------------------
+
+Consider the following code snippet to handle mouse events:
+
+import java.awt.event.*;
+import javax.swing.*;
+public class MouseDemo
+{
+	public void mouseClicked(MouseEvent me)
+	{}
+	public void mouseEntered(MouseEvent me)
+	{}
+}
+
+
+However, the preceding code does not handle the error. which one of the given statement
+must be replaced with statement provided at line number 3?
+
+
+a. public class MouseDemo extends MouseAdapter
+b. public class MouseDemo implements MouseListener
+c. public class MouseDemo implements MouseAdapter
+d. public class MouseDemo extends MouseListener
+
+Answer: A
+--------------------------------------------------
+--------------------------------------------------
+
+Consider the following statements:
+
+statement 1: Regular inner class can access the private members of the outer class.
+statement 2: To create a regular inner class object you need an outer class reference.
+
+identify whether the statments are true of false.
+
+a. Both the statements are true.
+b. Statement 1 is true and statement 2 is false.
+c. Statement 2 is false and statement 2 is true.
+d. Both the statements are false.
+
+Answer: c
+--------------------------------------------------
+--------------------------------------------------
+
+Resource bundles contain key/value paris that can be located in a _____________ file.
+
+a. properties
+b. bundle
+c. txt
+d. java
+
+ans=a. properties
+--------------------------------------------------
+--------------------------------------------------
+
+which one of the following statement is true regarding locale?
+
+a. the country value of a locale always uses uppercase.
+b. a locale is specified by using the language and country values.
+c. the language value of locale always uses uppercase.
+d. a locale is specified by using the language, region and country values.
+
+ans=A
+--------------------------------------------------
+--------------------------------------------------
+
+consider the following code snippet that uses locale objects to change the current locale.
+
+Locale frLocale = Locale.FRANCE;
+Locale ruLocale = new Locale("ru","RU");
+	
+Locale currentLocale;
+frLocale=ruLocale;
+
+currentLocale=frLocale;
+System.out.println(currentLocale);
+
+what will be the output when you try to execute the preceding code snippet:
+
+a. The code will generate the following output:
+	ru_RU
+
+b. The code will generate compile time error
+
+c. The code will generate the following output:
+	fr_FR
+
+d. The code will generate run-time exception:
+
+
+ans=a. The code will generate the following output:
+	ru_RU
+
+
+--------------------------------------------------
+--------------------------------------------------
+
+which one of the following statement is true regarding the generic method?
+
+a. Generic method can be created inside generic class or non generic class.
+b. Generic method can be created only inside an generic or non generic interface.
+c. Generic method can only be created inside generic class.
+d. Generic method can only be created non generic class.
+
+Answer: a
+--------------------------------------------------
+--------------------------------------------------
+
+Which one of the following code snippet correctly defines of generic method inside the generic class?
+
+public class GenericClassDemo
+{
+	public T combine(T t, T t2)
+	{
+		return t;
+	}
+}
+
+public class GenericClassDemo<T>
+{
+	public <T> combine(String t, String t2)
+	{
+
+	}
+}
+
+
+public class <T> GenericClassDemo
+{
+	public <T> combine(String t, String t2)
+	{
+
+	}
+}
+
+public class GenericClassDemo<T>
+{
+	public T combine(T t, T t2)
+	{
+		return t;
+	}
+}
+
+
+Answer: b
+--------------------------------------------------
+--------------------------------------------------
+
+which one of the following interface enables you to create a collection of key-value pair objects?
+
+a. Map
+b. Set
+c. Deque
+d. List
+
+ans=a. Map
+--------------------------------------------------
+--------------------------------------------------
+
+Consider the following scenerio.
+Martin, a java developer, wants to create an application for the bank. IN this application, he wants
+to ensure that the customer who arrives first is attendedfirst. Therefore, he wants to create
+a list of customers which one of the following classes will martin to implement the preceding
+scenerio?
+
+a. Hashtable
+b. ArrayDeque
+c. TreeSet
+d. ArrayList
+
+ans=b. ArrayDeque
+--------------------------------------------------
+--------------------------------------------------
+
+import java.util.*;
+class MapDemo	//line 1
+{
+	public static void main(String[] args)
+	{
+		Map<> mp=new HashMap();//line 2
+		mp.put(new Integer(2),"Two");
+		mp.put(new Integer(1),"One");
+		mp.put(new Integer(3),"Three");
+		mp.put(new Integer(4),"Four");
+		mp.remove("Three");//line 3
+		int i=mp.size();//line 4
+		System.out.println(mp);
+	}
+}
+
+However, the preceding code results in a combination error. Identify the line that causes
+the error and provide the solution:
+
+a. Line 4 should be replaced with the following statement:
+	int i=mp.getSize();
+
+b. Line 2 should be replaced with the following statement:
+	Map<Integer,String> mp=new HashMap<>();
+
+c. Line 1 should be replaced with the followig statement:
+	public class MapDemo implements Map
+
+d. Line 3 should be replaced with the following statement:
+	mp.remove(new Integer(3));
+
+
+ans=b. Line 2 should be replaced with the following statement:
+	Map<Integer,String> mp=new HashMap<>();
+
+
+--------------------------------------------------
+--------------------------------------------------
+
+______interface defines a task that can be submitted to the execute() method of the Executor interface.
+
+a. Callable
+b. ExecutorService
+c. Runnable
+d. Exchanger
+
+ans=c. Runnable
+
+--------------------------------------------------
+--------------------------------------------------
+
+Consider the following code snippet of java class that extends the thread class to execute a for
+loop in a new thread:
+
+public class SampleThread extends Thread
+{
+	public void run()
+	{
+		for(int i=0;i<100;i++)
+		{
+			System.out.println("i= "+i);
+		}
+	}
+}
+
+Which one of the following code snippets will you use to create and start a new thread for the 
+preceding code snippet:
+
+public static void main(String[] args)
+{
+	SampleThread sThread=new SampleThread();
+	sThread.start();
+}
+
+public static void main(String[] args)
+{
+	Thread sThread=new Thread();
+	sThread.run();
+}
+
+public static void main(String[] args)
+{
+	Thread sThread=new Thread();
+	sThread.start();
+}
+
+public static void main(String[] args)
+{
+	SampleThread sThread=new SampleThread();
+	sThread.run();
+}
+
+
+
+ANS=public static void main(String[] args)
+           {
+	SampleThread sThread=new SampleThread();
+	sThread.start();
+          }
+
+--------------------------------------------------
+--------------------------------------------------
+
+Sam has written the following code snippet the updates an integer value of 5 to 9.
+
+AtomicInteger ai=new AtomicInteger();//line 1
+if(ai.compareAndSet(5,9))//line 2
+{
+	System.out.println("Updated value: "+ai);//line 3	
+}
+
+However, the preceding code snippet does not display any output an execution. Which one of the
+following option should Sam use to rectify the code snippet to produce the output as "Updated value: 9"
+
+Change the statement in line 2, as shown:
+if(ai.compareAndSet(9,5))
+
+Change the statement in line 2, as shown:
+if(ai.set(5,9))
+
+Change the statement in line 1, as shown:
+AtomicInteger ai=new AtomicInteger(5);
+
+Change the statement in line 1, as shown:
+AtomicInteger ai=new AtomicInteger(9);
+
+
+Answer:
+Change the statement in line 1, as shown:
+AtomicInteger ai=new AtomicInteger(5);
+
+--------------------------------------------------
+--------------------------------------------------
+
+Identify the method of ExecutorService that is used to stop all the tasks that are executing?
+
+a. shutdownNow()
+b. terminated()
+c. close()
+d. shutdown()
+
+ans=a. shutdownNow()
+--------------------------------------------------
+--------------------------------------------------
+
+Identify the method that does not belong the FileVisitor interface:
+
+a. visitFile()
+b. previsitDirectory()
+c. postvisitDirectory()
+d. walkFileTree()
+
+ans=d. walkFileTree()
+
+--------------------------------------------------
+--------------------------------------------------
+
+Path s1= Paths.get("D:/test.txt")
+Path s2= Paths.get("D:/newtest.txt")
+
+try
+{
+	Files.copy(s1,s2);
+}
+catch(IOException a)
+{
+	System.out.println(a);
+}
+
+Which one of the following statements is true when the preceding code is execute?
+
+a. The code will copy the content of newtest.txt to test.txt, only if both the file exist.
+b. The code will copy the content of newtest.txt to test.txt, only if newtest.txt file exits.
+c. The code will copy the content of test.txt to newtest.txt, only if test.txt file exists.
+d. The code will copy the content of test.txt to newtest.txt, only if both the file exist.
+
+
+ans=c. The code will copy the content of test.txt to newtest.txt, only if test.txt file exists.
+
+--------------------------------------------------
+--------------------------------------------------
+
+Which one of the following statement is true regarding the execution of SQL statement using JDBC?
+
+a. you can execute SELECT and DELETE statements using the execute() method of statement.
+b. you can execute SELECT and UPDATE statements using the executeUpdate() method of statement.
+c. you can execute INSERT and UPDATE statements using the executeQuery() method of statement.
+d. you can execute SELECT and INSERT statements using the executeQuery() method of statement.
+
+ans=a. you can execute SELECT and DELETE statements using the execute() method of statement.
+
+
+--------------------------------------------------
+--------------------------------------------------

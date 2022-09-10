@@ -1,0 +1,6 @@
+Concurrency Issues:
+
+1) Race Condition	
+2) Livelock		t1(wants a) -> t2(holded a, printing b)
+3) Deadlock		t1(print c,wants a) -> t2(print a, wants b) -> t3(print b, wants c)
+4) Starvation	

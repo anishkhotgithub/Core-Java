@@ -1,0 +1,24 @@
+Steps to create database and table in 
+netbeans derby:
+
+1) Goto services tab
+2) Expand databases node
+3) Right click on java db -> start server
+4) Right click on java db -> create database
+5) Insert database name, username and password.
+6) Right click on database connection -> connecyt
+7) Expand your database connection and database
+8) Right click on tables -> execute command
+9) Write your SQL Queries
+
+--SQL (Structured Query Language)
+--SQL Case insensitive
+--To Create Table
+
+create table employees
+(
+    employeeid int,
+    employeename varchar(40)
+)
+
+

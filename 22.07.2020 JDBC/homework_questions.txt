@@ -1,0 +1,16 @@
+WAP in java to create following table:
+
+	Account:
+		account_id
+		first_name
+		last_name
+		email	
+		mobile
+		
+		
+	Account:
+		1) Create account
+		2) Delete account
+		3) update account
+		4) Display account by id
+		5) Display all accounts

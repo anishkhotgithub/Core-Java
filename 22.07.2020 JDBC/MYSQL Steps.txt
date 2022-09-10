@@ -1,0 +1,40 @@
+Download MYSQL:
+	https://docs.google.com/uc?export=download&id=0B-9Vl9hXQBBhb0ZBdDdHTUhKVW8
+
+
+
+Open mysql & write following queries:
+
+1) create database mydb;
+2) use mydb;
+3)
+
+	create table employees
+	(
+		employeeid int,
+		employeename varchar(40)
+	)
+
+4)
+	insert into employees values(1,'sameer');
+	insert into employees values(2,'saneet');
+
+5)
+	delimiter //
+	create procedure getUsers()
+	begin
+		select * from employees
+	end //
+
+6)
+		
+	delimiter //
+	create procedure getUser(in empid int)
+	begin
+		select * from employees where employeeid=empid
+	end //
+
+
+7)	call getUsers() //
+8) 	call getUser('sameer') //
+

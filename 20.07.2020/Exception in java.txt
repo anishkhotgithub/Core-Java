@@ -1,0 +1,69 @@
+Errors
+	Compile Time Error
+	Logical Error
+	Run Time Error	- Exception
+			
+-------------------------------------------------------------
+-------------------------------------------------------------
+
+Handling Exceptions
+
+try
+catch
+
+	Throwable
+		Exception
+
+		UnChecked Exception
+			-ArithmeticException
+			-InputMismatchException
+
+		Checked Exception
+			-FileNotFoundException
+
+-------------------------------------------------------------
+-------------------------------------------------------------
+
+finally
+	to close resources (files or database connections)
+
+But, in java 7
+try with resources
+autoclosable resources
+	it is used to eliminate lengthy finally block.
+
+
+try(//a.txt, b.txt)
+{
+
+}
+catch(Exception e)
+{
+
+}
+
+-------------------------------------------------------------
+-------------------------------------------------------------
+
+
+Suppressed Exception
+
+
+try(//a.txt, b.txt)
+{
+	//
+	//
+	//
+}
+catch(Exception e)
+{
+	System.out.println(e.getMessage());
+
+	for(Throwable t:e.getSuppressed())
+	{	
+		System.out.println(t.getMessage());
+	}
+}
+
+
+

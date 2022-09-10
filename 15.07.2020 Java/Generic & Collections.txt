@@ -1,0 +1,61 @@
+Generic 
+	Generic is used for type safety.
+
+
+Data Types
+	
+Primitive Data Types
+
+	int					
+	long
+	float
+	double
+	short
+	byte
+	char
+	boolean
+
+Non-Primitive Data Types (Wrapper-Classes)
+
+	Integer			
+	Long
+	Float
+	String	
+	Boolean
+	Character
+	Byte
+	Short
+
+	
+
+
+Collections
+
+	Static Arrary
+		These arrays cannot grow or shrink at run time.
+
+	Dynamic Array
+		These arrays can grow or shrink at run time.
+
+		Collections
+			
+			1) List
+			2) Set
+			3) Map
+			4) Deque
+				FIFO -	First In First Out		
+				LIFO -  Last  In First Out
+
+
+
+
+
+
+
+
+
+
+
+
+
+

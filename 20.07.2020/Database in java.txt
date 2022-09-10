@@ -1,0 +1,8 @@
+Database:
+	SQL - Structured Query Language
+
+Database softwares:
+	MySQL, MSSQL, Oracle, db2, derby
+
+JAR File (Java Archive):
+	Derby Jar File
